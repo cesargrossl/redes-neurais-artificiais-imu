@@ -1,0 +1,6 @@
+{
+  "label": "left",
+  "frames": 8,
+  "depth_fps": 10,
+  "imu_hz": 100
+}
