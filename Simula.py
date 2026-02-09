@@ -18,7 +18,8 @@ except Exception:
 # =========================
 # CONFIG
 # =========================
-DATASET_DIR = Path("dataset_5min_depth_imu")  # sua pasta no print
+DATASET_DIR = Path(__file__).parent / "dataset_5min_depth_imu"
+
 WINDOW_FRAMES = 8
 
 # Para SIMULACAO 2D (aproximada)
