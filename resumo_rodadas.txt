@@ -1,0 +1,17 @@
+Experimento com 10 rodadas (seeds diferentes)
+Arquitetura: 28 -> 32 -> 1 | LR=0.02 | epochs=30 | batch=32
+Split temporal: treino no início da sequência e teste no final (preservando ordem temporal)
+
+seed=100, acc_test=0.786667
+seed=101, acc_test=0.746667
+seed=102, acc_test=0.746667
+seed=103, acc_test=0.786667
+seed=104, acc_test=0.733333
+seed=105, acc_test=0.773333
+seed=106, acc_test=0.773333
+seed=107, acc_test=0.706667
+seed=108, acc_test=0.840000
+seed=109, acc_test=0.733333
+
+MEDIA_ACURACIA_TESTE=0.762667
+DP_ACURACIA_TESTE=0.037607
